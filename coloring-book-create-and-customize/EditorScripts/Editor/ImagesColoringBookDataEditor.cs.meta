@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8b9ba36b07b21449492e6242864907f3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - editorAsset: {fileID: 9197481963319205126, guid: 441a6e1329186e647b7993874124ddb9, type: 3}
+  - regionDataEntryAsset: {fileID: 9197481963319205126, guid: 05277705c13abe44cb7182a65ea0fb00, type: 3}
+  - regionIndexLocationAsset: {fileID: 9197481963319205126, guid: 3bad7b654c992f34db64865194c4587c, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

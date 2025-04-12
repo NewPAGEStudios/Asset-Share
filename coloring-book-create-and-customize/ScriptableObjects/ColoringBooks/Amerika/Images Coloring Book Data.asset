@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 413c6ea1f9b884b2f91476fba4e193e9, type: 3}
+  m_Name: Images Coloring Book Data
+  m_EditorClassIdentifier: 
+  texture: {fileID: 2800000, guid: 99ed6bc7e63cb9f4fa8c2566f2e19fab, type: 3}
+  coloringStyle: 0
+  errorSize: 54
+  panelPosition: {x: 1493.0483, y: 614.0609}
+  panelZoomValue: 0.46850002
+  regions:
+  - texture: {fileID: 2800000, guid: 7755531ba27252040aa4eab8228c2332, type: 3}
+    mainColor: {r: 0.627451, g: 0.45098042, b: 0.1764706, a: 1}
+    location:
+      x: 439
+      y: 3923
+    textureSize:
+      x: 137
+      y: 52
+    colorIndexLocation:
+      x: 458
+      y: 3960
+    originalPixelCount: 3478
+    downscale: 1
+    downscalePixelCount: 3259
+    active: 1
+  - texture: {fileID: 2800000, guid: 2797c7a13aa674241b8c22cdee97a2f7, type: 3}
+    mainColor: {r: 0.627451, g: 0.45098042, b: 0.1764706, a: 1}
+    location:
+      x: 658
+      y: 3879
+    textureSize:
+      x: 137
+      y: 52
+    colorIndexLocation:
+      x: 687
+      y: 3910
+    originalPixelCount: 3480
+    downscale: 1
+    downscalePixelCount: 3259
+    active: 1

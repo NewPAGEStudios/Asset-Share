@@ -1,0 +1,1640 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 413c6ea1f9b884b2f91476fba4e193e9, type: 3}
+  m_Name: Cute Turtle Coloring Page
+  m_EditorClassIdentifier: 
+  texture: {fileID: 2800000, guid: 79231b07d61044d7c902f3f8fe937c93, type: 3}
+  coloringStyle: 1
+  errorSize: 25
+  panelPosition: {x: -23.119457, y: -9.890539}
+  panelZoomValue: 0.19335938
+  regions:
+  - texture: {fileID: 2800000, guid: 076d8418af27d442ba91a2e3e87fc2c7, type: 3}
+    mainColor: {r: 0.9176471, g: 0.21176472, b: 0.5686275, a: 1}
+    location:
+      x: 310
+      y: 1596
+    textureSize:
+      x: 105
+      y: 122
+    colorIndexLocation:
+      x: 391
+      y: 1617
+    originalPixelCount: 7117
+    downscale: 1
+    downscalePixelCount: 6850
+    active: 1
+  - texture: {fileID: 2800000, guid: dfb7afff23cc847e1bb165b2df643e38, type: 3}
+    mainColor: {r: 0.9176471, g: 0.21176472, b: 0.5686275, a: 1}
+    location:
+      x: 1675
+      y: 1628
+    textureSize:
+      x: 121
+      y: 143
+    colorIndexLocation:
+      x: 1710
+      y: 1662
+    originalPixelCount: 10148
+    downscale: 1
+    downscalePixelCount: 9701
+    active: 1
+  - texture: {fileID: 2800000, guid: b1c617a6f58d74a45bfecb28bee62892, type: 3}
+    mainColor: {r: 0.9176471, g: 0.21176472, b: 0.5686275, a: 1}
+    location:
+      x: 1186
+      y: 984
+    textureSize:
+      x: 110
+      y: 70
+    colorIndexLocation:
+      x: 1237
+      y: 1013
+    originalPixelCount: 5552
+    downscale: 1
+    downscalePixelCount: 5040
+    active: 1
+  - texture: {fileID: 2800000, guid: 33fa7e669ff9544559a9ccc00d65702d, type: 3}
+    mainColor: {r: 0.9176471, g: 0.21176472, b: 0.5686275, a: 1}
+    location:
+      x: 440
+      y: 1097
+    textureSize:
+      x: 88
+      y: 54
+    colorIndexLocation:
+      x: 484
+      y: 1114
+    originalPixelCount: 3641
+    downscale: 1
+    downscalePixelCount: 3325
+    active: 1
+  - texture: {fileID: 2800000, guid: 50e439565a7bd4be294e6169f9c95c15, type: 3}
+    mainColor: {r: 0.9176471, g: 0.21176472, b: 0.5686275, a: 1}
+    location:
+      x: 316
+      y: 157
+    textureSize:
+      x: 59
+      y: 65
+    colorIndexLocation:
+      x: 342
+      y: 188
+    originalPixelCount: 2375
+    downscale: 1
+    downscalePixelCount: 2226
+    active: 1
+  - texture: {fileID: 2800000, guid: 42acc7e3289584659ac4010a5add0822, type: 3}
+    mainColor: {r: 0.9176471, g: 0.21176472, b: 0.5686275, a: 1}
+    location:
+      x: 336
+      y: 221
+    textureSize:
+      x: 79
+      y: 42
+    colorIndexLocation:
+      x: 374
+      y: 242
+    originalPixelCount: 2629
+    downscale: 1
+    downscalePixelCount: 2354
+    active: 1
+  - texture: {fileID: 2800000, guid: 50d17ce768bb64c6ebe323871e1abbb4, type: 3}
+    mainColor: {r: 0.9176471, g: 0.21176472, b: 0.5686275, a: 1}
+    location:
+      x: 193
+      y: 217
+    textureSize:
+      x: 82
+      y: 47
+    colorIndexLocation:
+      x: 236
+      y: 239
+    originalPixelCount: 3079
+    downscale: 1
+    downscalePixelCount: 2657
+    active: 1
+  - texture: {fileID: 2800000, guid: b1ab3cfa1217b4001b3b5d75f180001c, type: 3}
+    mainColor: {r: 0.9176471, g: 0.21176472, b: 0.5686275, a: 1}
+    location:
+      x: 241
+      y: 263
+    textureSize:
+      x: 51
+      y: 55
+    colorIndexLocation:
+      x: 265
+      y: 299
+    originalPixelCount: 1480
+    downscale: 1
+    downscalePixelCount: 1232
+    active: 1
+  - texture: {fileID: 2800000, guid: 1c081d0c892fa45f49726c441dd3830b, type: 3}
+    mainColor: {r: 0.9176471, g: 0.21176472, b: 0.5686275, a: 1}
+    location:
+      x: 309
+      y: 262
+    textureSize:
+      x: 57
+      y: 60
+    colorIndexLocation:
+      x: 339
+      y: 290
+    originalPixelCount: 2104
+    downscale: 1
+    downscalePixelCount: 1929
+    active: 1
+  - texture: {fileID: 2800000, guid: a8623cfdba4cd4b7291fde8f7959fd90, type: 3}
+    mainColor: {r: 0.9176471, g: 0.21176472, b: 0.5686275, a: 1}
+    location:
+      x: 260
+      y: 174
+    textureSize:
+      x: 42
+      y: 46
+    colorIndexLocation:
+      x: 282
+      y: 193
+    originalPixelCount: 1275
+    downscale: 1
+    downscalePixelCount: 1155
+    active: 1
+  - texture: {fileID: 2800000, guid: cc05a38d07cc84a88baaaa881d4d7afb, type: 3}
+    mainColor: {r: 0.9176471, g: 0.91372555, b: 0.41960788, a: 1}
+    location:
+      x: 285
+      y: 224
+    textureSize:
+      x: 40
+      y: 34
+    colorIndexLocation:
+      x: 301
+      y: 241
+    originalPixelCount: 1083
+    downscale: 1
+    downscalePixelCount: 989
+    active: 1
+  - texture: {fileID: 2800000, guid: 66d69e456a64747fe842f62fcf2e4f28, type: 3}
+    mainColor: {r: 0.9176471, g: 0.91372555, b: 0.41960788, a: 1}
+    location:
+      x: 393
+      y: 667
+    textureSize:
+      x: 1258
+      y: 1105
+    colorIndexLocation:
+      x: 894
+      y: 939
+    originalPixelCount: 885661
+    downscale: 8
+    downscalePixelCount: 12883
+    active: 1
+  - texture: {fileID: 2800000, guid: f91d1e37c8abd493ea48fc7ee83d1ce7, type: 3}
+    mainColor: {r: 0.9176471, g: 0.91372555, b: 0.41960788, a: 1}
+    location:
+      x: 594
+      y: 239
+    textureSize:
+      x: 276
+      y: 376
+    colorIndexLocation:
+      x: 711
+      y: 390
+    originalPixelCount: 39008
+    downscale: 2
+    downscalePixelCount: 9196
+    active: 1
+  - texture: {fileID: 2800000, guid: db4028f2313274028a4d8a644d375deb, type: 3}
+    mainColor: {r: 0.9176471, g: 0.91372555, b: 0.41960788, a: 1}
+    location:
+      x: 1127
+      y: 136
+    textureSize:
+      x: 343
+      y: 464
+    colorIndexLocation:
+      x: 1274
+      y: 357
+    originalPixelCount: 92173
+    downscale: 2
+    downscalePixelCount: 22145
+    active: 1
+  - texture: {fileID: 2800000, guid: 0afd435697ee7465686bbb66b3e8a693, type: 3}
+    mainColor: {r: 0.9176471, g: 0.91372555, b: 0.41960788, a: 1}
+    location:
+      x: 1164
+      y: 589
+    textureSize:
+      x: 70
+      y: 65
+    colorIndexLocation:
+      x: 1205
+      y: 620
+    originalPixelCount: 2431
+    downscale: 1
+    downscalePixelCount: 2257
+    active: 1
+  - texture: {fileID: 2800000, guid: c6b8576088d134d10acddf4c6ccf57df, type: 3}
+    mainColor: {r: 0.9176471, g: 0.91372555, b: 0.41960788, a: 1}
+    location:
+      x: 1474
+      y: 176
+    textureSize:
+      x: 242
+      y: 169
+    colorIndexLocation:
+      x: 1531
+      y: 286
+    originalPixelCount: 14138
+    downscale: 1
+    downscalePixelCount: 13555
+    active: 1
+  - texture: {fileID: 2800000, guid: 614257683986d4bf1a7d508918fedeb6, type: 3}
+    mainColor: {r: 0.9176471, g: 0.91372555, b: 0.41960788, a: 1}
+    location:
+      x: 1742
+      y: 274
+    textureSize:
+      x: 91
+      y: 42
+    colorIndexLocation:
+      x: 1781
+      y: 297
+    originalPixelCount: 2239
+    downscale: 1
+    downscalePixelCount: 2095
+    active: 1
+  - texture: {fileID: 2800000, guid: bd4f93676d43c469fb6480315992d846, type: 3}
+    mainColor: {r: 0.10980393, g: 0.7254902, b: 0.5254902, a: 1}
+    location:
+      x: 1540
+      y: 1222
+    textureSize:
+      x: 79
+      y: 127
+    colorIndexLocation:
+      x: 1569
+      y: 1297
+    originalPixelCount: 7771
+    downscale: 1
+    downscalePixelCount: 7038
+    active: 1
+  - texture: {fileID: 2800000, guid: 0dd5d6ed3c75344b78723d55288d922b, type: 3}
+    mainColor: {r: 0.10980393, g: 0.7254902, b: 0.5254902, a: 1}
+    location:
+      x: 1486
+      y: 1469
+    textureSize:
+      x: 79
+      y: 77
+    colorIndexLocation:
+      x: 1525
+      y: 1501
+    originalPixelCount: 2816
+    downscale: 1
+    downscalePixelCount: 2541
+    active: 1
+  - texture: {fileID: 2800000, guid: 764b689a823ba4a64a19ace1906afd4f, type: 3}
+    mainColor: {r: 0.10980393, g: 0.7254902, b: 0.5254902, a: 1}
+    location:
+      x: 1383
+      y: 1550
+    textureSize:
+      x: 121
+      y: 88
+    colorIndexLocation:
+      x: 1438
+      y: 1597
+    originalPixelCount: 5415
+    downscale: 1
+    downscalePixelCount: 5211
+    active: 1
+  - texture: {fileID: 2800000, guid: 61ab90caa4e8940ca8a0cb28794d5db3, type: 3}
+    mainColor: {r: 0.10980393, g: 0.7254902, b: 0.5254902, a: 1}
+    location:
+      x: 1248
+      y: 1637
+    textureSize:
+      x: 162
+      y: 105
+    colorIndexLocation:
+      x: 1334
+      y: 1676
+    originalPixelCount: 6209
+    downscale: 1
+    downscalePixelCount: 5939
+    active: 1
+  - texture: {fileID: 2800000, guid: b4ca3de237d574ff39ae6b43170b477d, type: 3}
+    mainColor: {r: 0.10980393, g: 0.7254902, b: 0.5254902, a: 1}
+    location:
+      x: 1130
+      y: 1632
+    textureSize:
+      x: 121
+      y: 89
+    colorIndexLocation:
+      x: 1188
+      y: 1681
+    originalPixelCount: 7490
+    downscale: 1
+    downscalePixelCount: 7271
+    active: 1
+  - texture: {fileID: 2800000, guid: 7136e691b46784726babad3f9c3c62d6, type: 3}
+    mainColor: {r: 0.10980393, g: 0.7254902, b: 0.5254902, a: 1}
+    location:
+      x: 836
+      y: 1612
+    textureSize:
+      x: 244
+      y: 88
+    colorIndexLocation:
+      x: 954
+      y: 1653
+    originalPixelCount: 16780
+    downscale: 1
+    downscalePixelCount: 16422
+    active: 1
+  - texture: {fileID: 2800000, guid: 23b289ed9380045fe82ad793c11e6603, type: 3}
+    mainColor: {r: 0.10980393, g: 0.7254902, b: 0.5254902, a: 1}
+    location:
+      x: 884
+      y: 1730
+    textureSize:
+      x: 290
+      y: 60
+    colorIndexLocation:
+      x: 1026
+      y: 1761
+    originalPixelCount: 13083
+    downscale: 1
+    downscalePixelCount: 12426
+    active: 1
+  - texture: {fileID: 2800000, guid: 471b25be2c8ad4e999a5039231abedd3, type: 3}
+    mainColor: {r: 0.10980393, g: 0.7254902, b: 0.5254902, a: 1}
+    location:
+      x: 710
+      y: 1672
+    textureSize:
+      x: 122
+      y: 83
+    colorIndexLocation:
+      x: 774
+      y: 1704
+    originalPixelCount: 6018
+    downscale: 1
+    downscalePixelCount: 5784
+    active: 1
+  - texture: {fileID: 2800000, guid: f4ed43f22f5524eeca618902624790da, type: 3}
+    mainColor: {r: 0.45098042, g: 0.8078432, b: 0.882353, a: 1}
+    location:
+      x: 0
+      y: 654
+    textureSize:
+      x: 117
+      y: 210
+    colorIndexLocation:
+      x: 46
+      y: 770
+    originalPixelCount: 12187
+    downscale: 1
+    downscalePixelCount: 11878
+    active: 1
+  - texture: {fileID: 2800000, guid: fd441aa1d84bd4d8ea2303f7b518abeb, type: 3}
+    mainColor: {r: 0.45098042, g: 0.8078432, b: 0.882353, a: 1}
+    location:
+      x: 0
+      y: 427
+    textureSize:
+      x: 111
+      y: 213
+    colorIndexLocation:
+      x: 25
+      y: 589
+    originalPixelCount: 4758
+    downscale: 1
+    downscalePixelCount: 4526
+    active: 1
+  - texture: {fileID: 2800000, guid: 482bf6017e3b74bdd8496f6099615181, type: 3}
+    mainColor: {r: 0.45098042, g: 0.8078432, b: 0.882353, a: 1}
+    location:
+      x: 0
+      y: 472
+    textureSize:
+      x: 2048
+      y: 1576
+    colorIndexLocation:
+      x: 265
+      y: 1471
+    originalPixelCount: 1283064
+    downscale: 8
+    downscalePixelCount: 17634
+    active: 1
+  - texture: {fileID: 2800000, guid: a6afbed06964e4d59b8dbd090da55e02, type: 3}
+    mainColor: {r: 0.45098042, g: 0.8078432, b: 0.882353, a: 1}
+    location:
+      x: 1801
+      y: 480
+    textureSize:
+      x: 247
+      y: 507
+    colorIndexLocation:
+      x: 2012
+      y: 916
+    originalPixelCount: 8292
+    downscale: 2
+    downscalePixelCount: 1488
+    active: 1
+  - texture: {fileID: 2800000, guid: 9e3ea11ae1cb64d4cb52c29ae33bde24, type: 3}
+    mainColor: {r: 0.10980393, g: 0.7254902, b: 0.5254902, a: 1}
+    location:
+      x: 0
+      y: 0
+    textureSize:
+      x: 2048
+      y: 432
+    colorIndexLocation:
+      x: 860
+      y: 95
+    originalPixelCount: 472833
+    downscale: 4
+    downscalePixelCount: 28584
+    active: 1
+  - texture: {fileID: 2800000, guid: c34496d9dd6c64444bfebc4de7ae00bc, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 1855
+      y: 90
+    textureSize:
+      x: 137
+      y: 81
+    colorIndexLocation:
+      x: 1911
+      y: 147
+    originalPixelCount: 4307
+    downscale: 1
+    downscalePixelCount: 4034
+    active: 1
+  - texture: {fileID: 2800000, guid: 58d848f489eed4327b76a307b73ea842, type: 3}
+    mainColor: {r: 0.13725491, g: 0.8588236, b: 0.62352943, a: 1}
+    location:
+      x: 587
+      y: 272
+    textureSize:
+      x: 28
+      y: 80
+    colorIndexLocation:
+      x: 598
+      y: 308
+    originalPixelCount: 1218
+    downscale: 1
+    downscalePixelCount: 1109
+    active: 1
+  - texture: {fileID: 2800000, guid: 9831090900f484548bc674deaa0cab99, type: 3}
+    mainColor: {r: 0.13725491, g: 0.8588236, b: 0.62352943, a: 1}
+    location:
+      x: 629
+      y: 249
+    textureSize:
+      x: 90
+      y: 95
+    colorIndexLocation:
+      x: 675
+      y: 298
+    originalPixelCount: 6645
+    downscale: 1
+    downscalePixelCount: 6235
+    active: 1
+  - texture: {fileID: 2800000, guid: 33e7fb2d285554a2f9701ba002d97bb2, type: 3}
+    mainColor: {r: 0.13725491, g: 0.8588236, b: 0.62352943, a: 1}
+    location:
+      x: 1153
+      y: 142
+    textureSize:
+      x: 52
+      y: 86
+    colorIndexLocation:
+      x: 1175
+      y: 176
+    originalPixelCount: 2984
+    downscale: 1
+    downscalePixelCount: 2703
+    active: 1
+  - texture: {fileID: 2800000, guid: 1df86f31b812f4c6bb39adfc2c5df473, type: 3}
+    mainColor: {r: 0.13725491, g: 0.8588236, b: 0.62352943, a: 1}
+    location:
+      x: 1219
+      y: 128
+    textureSize:
+      x: 70
+      y: 89
+    colorIndexLocation:
+      x: 1262
+      y: 170
+    originalPixelCount: 4779
+    downscale: 1
+    downscalePixelCount: 4387
+    active: 1
+  - texture: {fileID: 2800000, guid: 256942b255bfb4a69b65d973f6744f10, type: 3}
+    mainColor: {r: 0.13725491, g: 0.8588236, b: 0.62352943, a: 1}
+    location:
+      x: 1303
+      y: 128
+    textureSize:
+      x: 49
+      y: 68
+    colorIndexLocation:
+      x: 1326
+      y: 156
+    originalPixelCount: 2485
+    downscale: 1
+    downscalePixelCount: 2324
+    active: 1
+  - texture: {fileID: 2800000, guid: c3a8d4a1072f645d1aafc8c770968efc, type: 3}
+    mainColor: {r: 0.13725491, g: 0.8588236, b: 0.62352943, a: 1}
+    location:
+      x: 1527
+      y: 171
+    textureSize:
+      x: 96
+      y: 90
+    colorIndexLocation:
+      x: 1580
+      y: 203
+    originalPixelCount: 6715
+    downscale: 1
+    downscalePixelCount: 6512
+    active: 1
+  - texture: {fileID: 2800000, guid: aa1ff742db36549b2b658f58606fc0fb, type: 3}
+    mainColor: {r: 0.13725491, g: 0.8588236, b: 0.62352943, a: 1}
+    location:
+      x: 1635
+      y: 178
+    textureSize:
+      x: 45
+      y: 70
+    colorIndexLocation:
+      x: 1661
+      y: 214
+    originalPixelCount: 2301
+    downscale: 1
+    downscalePixelCount: 2022
+    active: 1
+  - texture: {fileID: 2800000, guid: 6e025dd929eb7473399c48c5f931ce96, type: 3}
+    mainColor: {r: 0.13725491, g: 0.8588236, b: 0.62352943, a: 1}
+    location:
+      x: 760
+      y: 520
+    textureSize:
+      x: 428
+      y: 156
+    colorIndexLocation:
+      x: 923
+      y: 574
+    originalPixelCount: 44198
+    downscale: 2
+    downscalePixelCount: 10253
+    active: 1
+  - texture: {fileID: 2800000, guid: 98d340431da064f01b10b127bca4029a, type: 3}
+    mainColor: {r: 0.13725491, g: 0.8588236, b: 0.62352943, a: 1}
+    location:
+      x: 761
+      y: 409
+    textureSize:
+      x: 415
+      y: 156
+    colorIndexLocation:
+      x: 994
+      y: 463
+    originalPixelCount: 39130
+    downscale: 1
+    downscalePixelCount: 38498
+    active: 1
+  - texture: {fileID: 2800000, guid: 2b3cc453907994bdcb51e6c5ed415ec6, type: 3}
+    mainColor: {r: 0.13725491, g: 0.8588236, b: 0.62352943, a: 1}
+    location:
+      x: 784
+      y: 323
+    textureSize:
+      x: 344
+      y: 122
+    colorIndexLocation:
+      x: 965
+      y: 356
+    originalPixelCount: 24285
+    downscale: 1
+    downscalePixelCount: 23792
+    active: 1
+  - texture: {fileID: 2800000, guid: eea7c1e39d2e2425eb27f3e356c01144, type: 3}
+    mainColor: {r: 0.13725491, g: 0.8588236, b: 0.62352943, a: 1}
+    location:
+      x: 835
+      y: 213
+    textureSize:
+      x: 272
+      y: 130
+    colorIndexLocation:
+      x: 1011
+      y: 278
+    originalPixelCount: 17225
+    downscale: 1
+    downscalePixelCount: 16632
+    active: 1
+  - texture: {fileID: 2800000, guid: 212fe345db9a64e61ad390a21f520618, type: 3}
+    mainColor: {r: 0.10980393, g: 0.7254902, b: 0.5254902, a: 1}
+    location:
+      x: 1236
+      y: 562
+    textureSize:
+      x: 172
+      y: 130
+    colorIndexLocation:
+      x: 1330
+      y: 634
+    originalPixelCount: 11947
+    downscale: 1
+    downscalePixelCount: 11493
+    active: 1
+  - texture: {fileID: 2800000, guid: 65f249668ad4c430c9229cb214c1b9b6, type: 3}
+    mainColor: {r: 0.13725491, g: 0.8588236, b: 0.62352943, a: 1}
+    location:
+      x: 1475
+      y: 518
+    textureSize:
+      x: 308
+      y: 327
+    colorIndexLocation:
+      x: 1630
+      y: 696
+    originalPixelCount: 58193
+    downscale: 2
+    downscalePixelCount: 13341
+    active: 1
+  - texture: {fileID: 2800000, guid: 70db200635d9642c58e8b45eb9414872, type: 3}
+    mainColor: {r: 0.13725491, g: 0.8588236, b: 0.62352943, a: 1}
+    location:
+      x: 1584
+      y: 836
+    textureSize:
+      x: 62
+      y: 59
+    colorIndexLocation:
+      x: 1618
+      y: 853
+    originalPixelCount: 1859
+    downscale: 1
+    downscalePixelCount: 1674
+    active: 1
+  - texture: {fileID: 2800000, guid: 29324ac99523f421abf38927b2d5fb63, type: 3}
+    mainColor: {r: 0.13725491, g: 0.8588236, b: 0.62352943, a: 1}
+    location:
+      x: 1373
+      y: 617
+    textureSize:
+      x: 115
+      y: 127
+    colorIndexLocation:
+      x: 1446
+      y: 677
+    originalPixelCount: 8124
+    downscale: 1
+    downscalePixelCount: 7800
+    active: 1
+  - texture: {fileID: 2800000, guid: f868bc4981f684f84a9a879e36da705e, type: 3}
+    mainColor: {r: 0.13725491, g: 0.8588236, b: 0.62352943, a: 1}
+    location:
+      x: 1444
+      y: 450
+    textureSize:
+      x: 230
+      y: 190
+    colorIndexLocation:
+      x: 1553
+      y: 543
+    originalPixelCount: 17916
+    downscale: 1
+    downscalePixelCount: 17191
+    active: 1
+  - texture: {fileID: 2800000, guid: f59c4fe2eea8c4826a478f16f9162785, type: 3}
+    mainColor: {r: 0.13725491, g: 0.8588236, b: 0.62352943, a: 1}
+    location:
+      x: 1686
+      y: 443
+    textureSize:
+      x: 97
+      y: 75
+    colorIndexLocation:
+      x: 1725
+      y: 467
+    originalPixelCount: 5980
+    downscale: 1
+    downscalePixelCount: 5750
+    active: 1
+  - texture: {fileID: 2800000, guid: 47ad926e0d1784f94929d3a6d37b13f7, type: 3}
+    mainColor: {r: 0.10980393, g: 0.7254902, b: 0.5254902, a: 1}
+    location:
+      x: 1492
+      y: 316
+    textureSize:
+      x: 247
+      y: 161
+    colorIndexLocation:
+      x: 1635
+      y: 395
+    originalPixelCount: 21961
+    downscale: 1
+    downscalePixelCount: 21089
+    active: 1
+  - texture: {fileID: 2800000, guid: 69140bac4b44e44fc8405930ae22a929, type: 3}
+    mainColor: {r: 0.10980393, g: 0.7254902, b: 0.5254902, a: 1}
+    location:
+      x: 1314
+      y: 391
+    textureSize:
+      x: 226
+      y: 207
+    colorIndexLocation:
+      x: 1443
+      y: 513
+    originalPixelCount: 21601
+    downscale: 1
+    downscalePixelCount: 20793
+    active: 1
+  - texture: {fileID: 2800000, guid: 729d33c1effa74ab1b80ecc25ef4a0d4, type: 3}
+    mainColor: {r: 0.10980393, g: 0.7254902, b: 0.5254902, a: 1}
+    location:
+      x: 1736
+      y: 329
+    textureSize:
+      x: 80
+      y: 124
+    colorIndexLocation:
+      x: 1780
+      y: 394
+    originalPixelCount: 5823
+    downscale: 1
+    downscalePixelCount: 5536
+    active: 1
+  - texture: {fileID: 2800000, guid: 09d2ace2742a04fe893a2960e7eb608b, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 0
+      y: 456
+    textureSize:
+      x: 88
+      y: 81
+    colorIndexLocation:
+      x: 20
+      y: 507
+    originalPixelCount: 3218
+    downscale: 1
+    downscalePixelCount: 3077
+    active: 1
+  - texture: {fileID: 2800000, guid: 2c1a60b9ccb1548c6923a87936215bdf, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 0
+      y: 644
+    textureSize:
+      x: 95
+      y: 70
+    colorIndexLocation:
+      x: 28
+      y: 671
+    originalPixelCount: 4525
+    downscale: 1
+    downscalePixelCount: 4232
+    active: 1
+  - texture: {fileID: 2800000, guid: cea07af1264634e91b5ab8e0992f4c07, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 0
+      y: 812
+    textureSize:
+      x: 96
+      y: 120
+    colorIndexLocation:
+      x: 35
+      y: 883
+    originalPixelCount: 5317
+    downscale: 1
+    downscalePixelCount: 5059
+    active: 1
+  - texture: {fileID: 2800000, guid: 5749e0f2f87834b26a4b7a8ea69a17bc, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 19
+      y: 934
+    textureSize:
+      x: 88
+      y: 137
+    colorIndexLocation:
+      x: 58
+      y: 1016
+    originalPixelCount: 6641
+    downscale: 1
+    downscalePixelCount: 6300
+    active: 1
+  - texture: {fileID: 2800000, guid: 6ef82bf98accf428c97304a982890822, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 35
+      y: 380
+    textureSize:
+      x: 73
+      y: 60
+    colorIndexLocation:
+      x: 75
+      y: 413
+    originalPixelCount: 1886
+    downscale: 1
+    downscalePixelCount: 1699
+    active: 1
+  - texture: {fileID: 2800000, guid: 914534d4cd82842178f22334524d873d, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 71
+      y: 558
+    textureSize:
+      x: 75
+      y: 92
+    colorIndexLocation:
+      x: 102
+      y: 622
+    originalPixelCount: 2484
+    downscale: 1
+    downscalePixelCount: 2253
+    active: 1
+  - texture: {fileID: 2800000, guid: 687293015e76d4d75923fb47dd47c343, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 100
+      y: 398
+    textureSize:
+      x: 57
+      y: 32
+    colorIndexLocation:
+      x: 118
+      y: 412
+    originalPixelCount: 1020
+    downscale: 1
+    downscalePixelCount: 942
+    active: 1
+  - texture: {fileID: 2800000, guid: efc05ec93b38d46df8519288913205e6, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 126
+      y: 732
+    textureSize:
+      x: 141
+      y: 159
+    colorIndexLocation:
+      x: 209
+      y: 849
+    originalPixelCount: 9058
+    downscale: 1
+    downscalePixelCount: 8318
+    active: 1
+  - texture: {fileID: 2800000, guid: 30979208b213c4afd979c4140bd4643d, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 164
+      y: 531
+    textureSize:
+      x: 65
+      y: 197
+    colorIndexLocation:
+      x: 190
+      y: 635
+    originalPixelCount: 7267
+    downscale: 1
+    downscalePixelCount: 6951
+    active: 1
+  - texture: {fileID: 2800000, guid: b76ce50b667924c0c8658304a471cd85, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 199
+      y: 425
+    textureSize:
+      x: 95
+      y: 214
+    colorIndexLocation:
+      x: 251
+      y: 584
+    originalPixelCount: 13272
+    downscale: 1
+    downscalePixelCount: 12239
+    active: 1
+  - texture: {fileID: 2800000, guid: 93865daf1f8584504b22ac953422b912, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 230
+      y: 633
+    textureSize:
+      x: 44
+      y: 119
+    colorIndexLocation:
+      x: 263
+      y: 691
+    originalPixelCount: 2596
+    downscale: 1
+    downscalePixelCount: 2263
+    active: 1
+  - texture: {fileID: 2800000, guid: b44d5c66e3a464c5187793aa2f4b810a, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 271
+      y: 431
+    textureSize:
+      x: 24
+      y: 51
+    colorIndexLocation:
+      x: 282
+      y: 461
+    originalPixelCount: 654
+    downscale: 1
+    downscalePixelCount: 572
+    active: 1
+  - texture: {fileID: 2800000, guid: 059d611302a734708b955b06db89d417, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 278
+      y: 567
+    textureSize:
+      x: 99
+      y: 132
+    colorIndexLocation:
+      x: 322
+      y: 639
+    originalPixelCount: 7344
+    downscale: 1
+    downscalePixelCount: 6974
+    active: 1
+  - texture: {fileID: 2800000, guid: 8c497873015fb43b6a576b694ce7da93, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 301
+      y: 474
+    textureSize:
+      x: 31
+      y: 130
+    colorIndexLocation:
+      x: 319
+      y: 525
+    originalPixelCount: 2493
+    downscale: 1
+    downscalePixelCount: 2009
+    active: 1
+  - texture: {fileID: 2800000, guid: 1677dad35529c4868878a16c75626d78, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 307
+      y: 438
+    textureSize:
+      x: 121
+      y: 85
+    colorIndexLocation:
+      x: 367
+      y: 483
+    originalPixelCount: 4606
+    downscale: 1
+    downscalePixelCount: 4189
+    active: 1
+  - texture: {fileID: 2800000, guid: 21ba9abaf28714e8793bd8beb600044c, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 339
+      y: 639
+    textureSize:
+      x: 82
+      y: 217
+    colorIndexLocation:
+      x: 377
+      y: 767
+    originalPixelCount: 10373
+    downscale: 1
+    downscalePixelCount: 9980
+    active: 1
+  - texture: {fileID: 2800000, guid: 418bf82f25c8a453dad669b32bc1ec8e, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 352
+      y: 518
+    textureSize:
+      x: 134
+      y: 74
+    colorIndexLocation:
+      x: 425
+      y: 562
+    originalPixelCount: 6037
+    downscale: 1
+    downscalePixelCount: 5622
+    active: 1
+  - texture: {fileID: 2800000, guid: 64b2a979d268e4ef28566afbb151dd18, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 401
+      y: 597
+    textureSize:
+      x: 149
+      y: 104
+    colorIndexLocation:
+      x: 478
+      y: 651
+    originalPixelCount: 6551
+    downscale: 1
+    downscalePixelCount: 6223
+    active: 1
+  - texture: {fileID: 2800000, guid: cb466214d30dc4755a8d7b179ed402cf, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 485
+      y: 444
+    textureSize:
+      x: 74
+      y: 80
+    colorIndexLocation:
+      x: 515
+      y: 492
+    originalPixelCount: 3753
+    downscale: 1
+    downscalePixelCount: 3575
+    active: 1
+  - texture: {fileID: 2800000, guid: 2da843b49a7d3452db9e0c6f85558a40, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 513
+      y: 403
+    textureSize:
+      x: 76
+      y: 48
+    colorIndexLocation:
+      x: 541
+      y: 437
+    originalPixelCount: 2765
+    downscale: 1
+    downscalePixelCount: 2626
+    active: 1
+  - texture: {fileID: 2800000, guid: ed14135cbdcfe42d3a3dcf6d4a4e0f06, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 542
+      y: 447
+    textureSize:
+      x: 81
+      y: 110
+    colorIndexLocation:
+      x: 582
+      y: 504
+    originalPixelCount: 4303
+    downscale: 1
+    downscalePixelCount: 3991
+    active: 1
+  - texture: {fileID: 2800000, guid: d2334da2ee0464a62bfa851c31373700, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 572
+      y: 506
+    textureSize:
+      x: 70
+      y: 118
+    colorIndexLocation:
+      x: 607
+      y: 577
+    originalPixelCount: 3743
+    downscale: 1
+    downscalePixelCount: 3437
+    active: 1
+  - texture: {fileID: 2800000, guid: 66dc44e897a6b4085a5a3b40c391a72b, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 1964
+      y: 944
+    textureSize:
+      x: 84
+      y: 135
+    colorIndexLocation:
+      x: 2019
+      y: 1017
+    originalPixelCount: 6779
+    downscale: 1
+    downscalePixelCount: 6096
+    active: 1
+  - texture: {fileID: 2800000, guid: 1e6039cb7fa944690aefd0882101bc90, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 1799
+      y: 921
+    textureSize:
+      x: 133
+      y: 89
+    colorIndexLocation:
+      x: 1851
+      y: 978
+    originalPixelCount: 5528
+    downscale: 1
+    downscalePixelCount: 5179
+    active: 1
+  - texture: {fileID: 2800000, guid: 83ec4ccdd6dd5421e8d936615b1bf305, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 1706
+      y: 1147
+    textureSize:
+      x: 158
+      y: 97
+    colorIndexLocation:
+      x: 1763
+      y: 1204
+    originalPixelCount: 7085
+    downscale: 1
+    downscalePixelCount: 6703
+    active: 1
+  - texture: {fileID: 2800000, guid: 8fab3a9dd7eb44d8da3be5fdc19694de, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 1935
+      y: 1062
+    textureSize:
+      x: 56
+      y: 147
+    colorIndexLocation:
+      x: 1969
+      y: 1162
+    originalPixelCount: 5300
+    downscale: 1
+    downscalePixelCount: 5012
+    active: 1
+  - texture: {fileID: 2800000, guid: 8b59d6b6751c6451887c5f7419d9e76d, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 1855
+      y: 1192
+    textureSize:
+      x: 44
+      y: 144
+    colorIndexLocation:
+      x: 1881
+      y: 1288
+    originalPixelCount: 4226
+    downscale: 1
+    downscalePixelCount: 3817
+    active: 1
+  - texture: {fileID: 2800000, guid: 0a91d5ce5396642c78fb081e2e4499da, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 1886
+      y: 633
+    textureSize:
+      x: 62
+      y: 153
+    colorIndexLocation:
+      x: 1920
+      y: 734
+    originalPixelCount: 5187
+    downscale: 1
+    downscalePixelCount: 4842
+    active: 1
+  - texture: {fileID: 2800000, guid: 0509e9487535e43fa9260a2f530a7621, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 1892
+      y: 537
+    textureSize:
+      x: 64
+      y: 155
+    colorIndexLocation:
+      x: 1939
+      y: 624
+    originalPixelCount: 4121
+    downscale: 1
+    downscalePixelCount: 3888
+    active: 1
+  - texture: {fileID: 2800000, guid: 649fb5700b53c4eff86eeb7ada967343, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 1948
+      y: 582
+    textureSize:
+      x: 92
+      y: 87
+    colorIndexLocation:
+      x: 2000
+      y: 639
+    originalPixelCount: 3992
+    downscale: 1
+    downscalePixelCount: 3608
+    active: 1
+  - texture: {fileID: 2800000, guid: 8ae8e99b1491a4767acc4e801a3dae8d, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 2005
+      y: 697
+    textureSize:
+      x: 43
+      y: 119
+    colorIndexLocation:
+      x: 2027
+      y: 746
+    originalPixelCount: 2717
+    downscale: 1
+    downscalePixelCount: 2275
+    active: 1
+  - texture: {fileID: 2800000, guid: 4117b3e710a454afaa7dd0e44a7556fa, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 1795
+      y: 508
+    textureSize:
+      x: 85
+      y: 147
+    colorIndexLocation:
+      x: 1843
+      y: 597
+    originalPixelCount: 5448
+    downscale: 1
+    downscalePixelCount: 4975
+    active: 1
+  - texture: {fileID: 2800000, guid: 76382097bb46e4b3aad234eaf000dd8b, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 1805
+      y: 448
+    textureSize:
+      x: 40
+      y: 127
+    colorIndexLocation:
+      x: 1832
+      y: 501
+    originalPixelCount: 3737
+    downscale: 1
+    downscalePixelCount: 3485
+    active: 1
+  - texture: {fileID: 2800000, guid: 838d5b21db354441aae6af09e71457f0, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 1913
+      y: 431
+    textureSize:
+      x: 112
+      y: 88
+    colorIndexLocation:
+      x: 2012
+      y: 498
+    originalPixelCount: 2694
+    downscale: 1
+    downscalePixelCount: 2453
+    active: 1
+  - texture: {fileID: 2800000, guid: 17462cd27e97942c587eae004161ffd0, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 1968
+      y: 527
+    textureSize:
+      x: 80
+      y: 92
+    colorIndexLocation:
+      x: 2016
+      y: 569
+    originalPixelCount: 3386
+    downscale: 1
+    downscalePixelCount: 3194
+    active: 1
+  - texture: {fileID: 2800000, guid: 2c28de0b140eb4b30976b337d511e612, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 2025
+      y: 421
+    textureSize:
+      x: 23
+      y: 111
+    colorIndexLocation:
+      x: 2037
+      y: 458
+    originalPixelCount: 1747
+    downscale: 1
+    downscalePixelCount: 952
+    active: 1
+  - texture: {fileID: 2800000, guid: 7b0e1a1b06f8246478855f34460e9b9f, type: 3}
+    mainColor: {r: 0.6039216, g: 0.78823537, b: 0.23137257, a: 1}
+    location:
+      x: 0
+      y: 350
+    textureSize:
+      x: 39
+      y: 53
+    colorIndexLocation:
+      x: 19
+      y: 365
+    originalPixelCount: 1071
+    downscale: 1
+    downscalePixelCount: 982
+    active: 1
+  - texture: {fileID: 2800000, guid: d4ef12e4943654180980ce2b80d35641, type: 3}
+    mainColor: {r: 0.6039216, g: 0.78823537, b: 0.23137257, a: 1}
+    location:
+      x: 4
+      y: 364
+    textureSize:
+      x: 79
+      y: 66
+    colorIndexLocation:
+      x: 40
+      y: 392
+    originalPixelCount: 2070
+    downscale: 1
+    downscalePixelCount: 1902
+    active: 1
+  - texture: {fileID: 2800000, guid: e937a5f92aa79497dbe241b434573cb6, type: 3}
+    mainColor: {r: 0.6039216, g: 0.78823537, b: 0.23137257, a: 1}
+    location:
+      x: 25
+      y: 413
+    textureSize:
+      x: 188
+      y: 77
+    colorIndexLocation:
+      x: 100
+      y: 460
+    originalPixelCount: 6142
+    downscale: 1
+    downscalePixelCount: 5737
+    active: 1
+  - texture: {fileID: 2800000, guid: 542cf7a97d2934f4aba662dc3268f908, type: 3}
+    mainColor: {r: 0.6039216, g: 0.78823537, b: 0.23137257, a: 1}
+    location:
+      x: 48
+      y: 462
+    textureSize:
+      x: 133
+      y: 141
+    colorIndexLocation:
+      x: 90
+      y: 557
+    originalPixelCount: 7503
+    downscale: 1
+    downscalePixelCount: 7106
+    active: 1
+  - texture: {fileID: 2800000, guid: a1a7499743d684356811375b93d84186, type: 3}
+    mainColor: {r: 0.6039216, g: 0.78823537, b: 0.23137257, a: 1}
+    location:
+      x: 93
+      y: 1059
+    textureSize:
+      x: 48
+      y: 141
+    colorIndexLocation:
+      x: 116
+      y: 1135
+    originalPixelCount: 4402
+    downscale: 1
+    downscalePixelCount: 4121
+    active: 1
+  - texture: {fileID: 2800000, guid: b16a4845e411445de8672c231e0a76ef, type: 3}
+    mainColor: {r: 0.6039216, g: 0.78823537, b: 0.23137257, a: 1}
+    location:
+      x: 106
+      y: 508
+    textureSize:
+      x: 77
+      y: 591
+    colorIndexLocation:
+      x: 106
+      y: 825
+    originalPixelCount: 3351
+    downscale: 1
+    downscalePixelCount: 2654
+    active: 1
+  - texture: {fileID: 2800000, guid: e13df1eb5f97140d39e30c03c72886cd, type: 3}
+    mainColor: {r: 0.6039216, g: 0.78823537, b: 0.23137257, a: 1}
+    location:
+      x: 142
+      y: 618
+    textureSize:
+      x: 106
+      y: 175
+    colorIndexLocation:
+      x: 184
+      y: 750
+    originalPixelCount: 7346
+    downscale: 1
+    downscalePixelCount: 6714
+    active: 1
+  - texture: {fileID: 2800000, guid: a37a7dba818734e5a9b2ff95b752bc1b, type: 3}
+    mainColor: {r: 0.6039216, g: 0.78823537, b: 0.23137257, a: 1}
+    location:
+      x: 128
+      y: 908
+    textureSize:
+      x: 113
+      y: 83
+    colorIndexLocation:
+      x: 184
+      y: 961
+    originalPixelCount: 4097
+    downscale: 1
+    downscalePixelCount: 3783
+    active: 1
+  - texture: {fileID: 2800000, guid: 2bbd30383dcdd4b0d9b6423705bd58db, type: 3}
+    mainColor: {r: 0.6039216, g: 0.78823537, b: 0.23137257, a: 1}
+    location:
+      x: 167
+      y: 1049
+    textureSize:
+      x: 130
+      y: 103
+    colorIndexLocation:
+      x: 250
+      y: 1112
+    originalPixelCount: 5592
+    downscale: 1
+    downscalePixelCount: 5046
+    active: 1
+  - texture: {fileID: 2800000, guid: 10a34cc50a5b74097a0eafc574fa23b6, type: 3}
+    mainColor: {r: 0.6039216, g: 0.78823537, b: 0.23137257, a: 1}
+    location:
+      x: 167
+      y: 428
+    textureSize:
+      x: 54
+      y: 88
+    colorIndexLocation:
+      x: 197
+      y: 465
+    originalPixelCount: 473
+    downscale: 1
+    downscalePixelCount: 310
+    active: 1
+  - texture: {fileID: 2800000, guid: 6120a147f73a94027a5efab2974bc655, type: 3}
+    mainColor: {r: 0.6039216, g: 0.78823537, b: 0.23137257, a: 1}
+    location:
+      x: 383
+      y: 401
+    textureSize:
+      x: 121
+      y: 76
+    colorIndexLocation:
+      x: 443
+      y: 445
+    originalPixelCount: 5967
+    downscale: 1
+    downscalePixelCount: 5686
+    active: 1
+  - texture: {fileID: 2800000, guid: 29d5d3d2e62134fbca704aad018cb883, type: 3}
+    mainColor: {r: 0.6039216, g: 0.78823537, b: 0.23137257, a: 1}
+    location:
+      x: 1732
+      y: 1040
+    textureSize:
+      x: 182
+      y: 115
+    colorIndexLocation:
+      x: 1822
+      y: 1114
+    originalPixelCount: 10557
+    downscale: 1
+    downscalePixelCount: 10129
+    active: 1
+  - texture: {fileID: 2800000, guid: 33e8f3467a4f74e8488466c86fb8ffa2, type: 3}
+    mainColor: {r: 0.6039216, g: 0.78823537, b: 0.23137257, a: 1}
+    location:
+      x: 1819
+      y: 578
+    textureSize:
+      x: 71
+      y: 124
+    colorIndexLocation:
+      x: 1856
+      y: 662
+    originalPixelCount: 3553
+    downscale: 1
+    downscalePixelCount: 2917
+    active: 1
+  - texture: {fileID: 2800000, guid: aecceb81da7744081986de245da8b8a1, type: 3}
+    mainColor: {r: 0.6039216, g: 0.78823537, b: 0.23137257, a: 1}
+    location:
+      x: 1831
+      y: 732
+    textureSize:
+      x: 130
+      y: 144
+    colorIndexLocation:
+      x: 1888
+      y: 840
+    originalPixelCount: 8160
+    downscale: 1
+    downscalePixelCount: 7771
+    active: 1
+  - texture: {fileID: 2800000, guid: d70c7e146ae114b2c8513f17093dc171, type: 3}
+    mainColor: {r: 0.6039216, g: 0.78823537, b: 0.23137257, a: 1}
+    location:
+      x: 1868
+      y: 441
+    textureSize:
+      x: 99
+      y: 150
+    colorIndexLocation:
+      x: 1914
+      y: 502
+    originalPixelCount: 6289
+    downscale: 1
+    downscalePixelCount: 5881
+    active: 1
+  - texture: {fileID: 2800000, guid: 92c7d1ab86dac4990bca0fac179aaa4c, type: 3}
+    mainColor: {r: 0.6039216, g: 0.78823537, b: 0.23137257, a: 1}
+    location:
+      x: 1910
+      y: 382
+    textureSize:
+      x: 72
+      y: 37
+    colorIndexLocation:
+      x: 1941
+      y: 396
+    originalPixelCount: 1936
+    downscale: 1
+    downscalePixelCount: 1706
+    active: 1
+  - texture: {fileID: 2800000, guid: 88679ea7cb98b40c997e0d02081a03c3, type: 3}
+    mainColor: {r: 0.6039216, g: 0.78823537, b: 0.23137257, a: 1}
+    location:
+      x: 1959
+      y: 402
+    textureSize:
+      x: 53
+      y: 87
+    colorIndexLocation:
+      x: 1983
+      y: 443
+    originalPixelCount: 3180
+    downscale: 1
+    downscalePixelCount: 2783
+    active: 1
+  - texture: {fileID: 2800000, guid: e404aac0bc10b4bb2a5a73d6ba1bdd21, type: 3}
+    mainColor: {r: 0.6039216, g: 0.78823537, b: 0.23137257, a: 1}
+    location:
+      x: 1990
+      y: 768
+    textureSize:
+      x: 58
+      y: 136
+    colorIndexLocation:
+      x: 2026
+      y: 827
+    originalPixelCount: 4029
+    downscale: 1
+    downscalePixelCount: 3694
+    active: 1
+  - texture: {fileID: 2800000, guid: eb308fb1b06ce4ea2b68b79af13cdeb1, type: 3}
+    mainColor: {r: 0.10980393, g: 0.7254902, b: 0.5254902, a: 1}
+    location:
+      x: 650
+      y: 546
+    textureSize:
+      x: 67
+      y: 166
+    colorIndexLocation:
+      x: 687
+      y: 654
+    originalPixelCount: 5612
+    downscale: 1
+    downscalePixelCount: 5341
+    active: 1
+  - texture: {fileID: 2800000, guid: 99e0a269da89b486191361a9960be513, type: 3}
+    mainColor: {r: 0.3803922, g: 0.7058824, b: 0.28235295, a: 1}
+    location:
+      x: 599
+      y: 75
+    textureSize:
+      x: 134
+      y: 96
+    colorIndexLocation:
+      x: 670
+      y: 141
+    originalPixelCount: 5142
+    downscale: 1
+    downscalePixelCount: 4807
+    active: 1
+  - texture: {fileID: 2800000, guid: ca6ddbcbaa07641508e6c3a6d7e17da2, type: 3}
+    mainColor: {r: 0.6039216, g: 0.78823537, b: 0.23137257, a: 1}
+    location:
+      x: 2007
+      y: 377
+    textureSize:
+      x: 41
+      y: 37
+    colorIndexLocation:
+      x: 2035
+      y: 391
+    originalPixelCount: 1070
+    downscale: 1
+    downscalePixelCount: 909
+    active: 1
